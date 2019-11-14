@@ -1,0 +1,265 @@
+/*Reset CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-family:"Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+
+.menu{
+    z-index: 100;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+}
+.menu ul{
+  list-style-type: none;
+  padding: 0;
+}
+.sous li{
+    width: 100% !important;
+}
+
+.menu ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+    /*position: relative;*/
+}
+.menu > ul > ul > li > ul > li{
+  width: 100%;
+}
+.menu ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.menu a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+}
+.menu a:hover{
+  color: orange;
+  border-bottom: 2px solid gold;
+}
+.sous{
+  display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    padding: 0;
+    width: 25%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+  }
+
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+    display: block;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11, .pimg12, .pimg13, .pimg14, .pimg15, .pimg16, .pimg17, .pimg18, .pimg19, .pimg20, .pimg21, .pimg22, .pimg23, .pimg24, .pimg25, .pimg26, .pimg27, .pimg28{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg1{
+  background-image:url("../img/effeil.jpg");
+  min-height: 100%;
+}
+.pimg2{
+  background-image:url("../img/berlin.jpg");
+  min-height: 400px;
+}
+.pimg3{
+  background-image:url("../img/bruxelles1.jpg");
+  min-height: 400px;
+}
+.pimg4{
+  background-image:url("../img/londres1.jpg");
+  min-height: 400px;
+}
+.pimg5{
+  background-image:url("../img/dublin4.jpg");
+  min-height: 400px;
+}
+.pimg6{
+  background-image: url("../img/luxembourg.jpg");
+  min-height: 400px;
+}
+.pimg7{
+  background-image:url("../img/amsterdam1.jpg");
+  min-height: 400px;
+}
+.pimg8{
+  background-image: url("../img/vienne1.jpg");
+  min-height: 400px;
+}
+.pimg9{
+  background-image:url("../img/sofia.jpg");
+  min-height: 400px;
+}
+.pimg10{
+  background-image:url("../img/budapest.jpg");
+  min-height: 400px;
+}
+.pimg11{
+  background-image:url("../img/varsovie.jpg");
+  min-height: 400px;
+}
+.pimg12{
+  background-image:url("../img/prague.jpg");
+  min-height: 400px;
+}
+.pimg13{
+  background-image:url("../img/bucarest.jpg");
+  min-height: 400px;
+}
+.pimg14{
+  background-image:url("../img/bratislava.jpg");
+  min-height: 400px;
+}
+.pimg15{
+  background-image:url("../img/copenhague1.jpg");
+  min-height: 400px;
+}
+.pimg16{
+  background-image:url("../img/tallinn.jpg");
+  min-height: 400px;
+}
+.pimg17{
+  background-image:url("../img/helsinki.jpg");
+  min-height: 400px;
+}
+.pimg18{
+  background-image:url("../img/riga.jpg");
+  min-height: 400px;
+}
+.pimg19{
+  background-image:url("../img/vilnius.jpg");
+  min-height: 400px;
+}
+.pimg20{
+  background-image:url("../img/stockholm.jpg");
+  min-height: 400px;
+}
+.pimg21{
+  background-image:url("../img/nicosie.jpg");
+  min-height: 400px;
+}
+.pimg22{
+  background-image:url("../img/zagreb.jpg");
+  min-height: 400px;
+}
+.pimg23{
+  background-image:url("../img/madrid1.jpg");
+  min-height: 400px;
+}
+.pimg24{
+  background-image:url("../img/athenes1.jpg");
+  min-height: 400px;
+}
+.pimg25{
+  background-image:url("../img/rome3.jpg");
+  min-height: 400px;
+}
+.pimg26{
+  background-image:url("../img/lavalette.jpg");
+  min-height: 400px;
+}
+.pimg27{
+  background-image:url("../img/lisbonne1.jpg");
+  min-height: 400px;
+}
+.pimg28{
+  background-image:url("../img/ljubljana.jpg");
+  min-height: 400px;
+}
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-light{
+  background-color: #282e34;
+  color: #ddd;
+}
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext .border{
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+.ptext .border.trans{
+  background-color: transparent;
+}
+nav label, nav input{
+  display: none;
+}
+@media screen and (max-width: 768px){
+  .ptext .border{
+    padding: 0px;
+  }
+  nav label{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+  }
+  ul{
+    display: none;
+  }
+  nav input[type="checkbox"]:checked + ul{
+    display:flex;
+    flex-flow: column wrap;
+    width: 50%
+  }
+  .menu ul li{
+    width: 100%
+  }
+  body > nav > ul > li > ul{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50% !important;
+    left: 50%;
+    top: 57px
+  }
+  p{
+    font-size: 4vw;
+  }
+  h2{
+    font-size: 5vw;
+  }
+}
