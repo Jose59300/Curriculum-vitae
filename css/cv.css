@@ -421,6 +421,7 @@ nav label, nav input{
   }
   .clipped{
     margin: 20px;
+    font-size: 3vw;
   }
   .text{
     padding: 10px;
@@ -463,6 +464,7 @@ nav label, nav input{
   }
   .clipped{
     margin: 25px;
+    font-size: 2vw;
   }
   .text{
     padding: 20px;
