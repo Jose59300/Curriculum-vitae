@@ -151,7 +151,7 @@ img{
   content: '';
   position: absolute;
   opacity: 0.5;
-  width: 350px;
+  width: 28vw;
   height: 70px;
   background: white;
   z-index:1;
@@ -426,6 +426,9 @@ nav label, nav input{
     padding: 10px;
     font-size: 4vw;
   }
+  .polygon:before{
+    width: 50vw;
+  }
 }
 /* fin responsive smartphones*/
 /* responsive laptop*/
@@ -449,6 +452,9 @@ nav label, nav input{
   .text{
     padding: 25px;
   }
+  .polygon:before{
+    width: 36vw;
+  }
 }
 /*fin responsive laptop*/
 @media screen and (min-width: 426px) and (max-width: 767px) {
@@ -461,6 +467,9 @@ nav label, nav input{
   .text{
     padding: 20px;
     font-size: 2.5vw;
+  }
+  .polygon:before{
+    width: 44vw;
   }
 
 }
