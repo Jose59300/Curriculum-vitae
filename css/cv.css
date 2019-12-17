@@ -20,7 +20,7 @@ nav{
 }
 .menu ul{
   list-style-type: none;
-  padding: 15px 0px;
+  padding: 26px 0px;
   width: 60%;
   display: inline-block;
 
@@ -88,7 +88,7 @@ section{
   background-image: url("../img/fond4.gif");
   text-align: center;
   color: white;
-  padding: 30px 15px;
+  padding: 80px 15px;
   font-size: 30px;
 }
 #apropos > .text > a{
@@ -124,7 +124,7 @@ header{
   background-image: url("../img/fond4.gif");
   text-align: center;
   color: white;
-  padding: 30px 15px;
+  padding: 80px 15px;
   font-size: 30px;
 }
 img{
@@ -284,7 +284,7 @@ p{
   background-image: url("../img/fond4.gif");
   text-align: center;
   color: white;
-  padding: 30px 15px;
+  padding: 80px 15px;
   font-size: 30px;
 }
 /*fin mon parcours*/
@@ -296,7 +296,7 @@ nav label, nav input{
   background-image: url("../img/fond4.gif");
   text-align: center;
   color: white;
-  padding: 30px 15px;
+  padding: 80px 15px;
   font-size: 30px;
 }
 .projet{
@@ -458,8 +458,7 @@ nav label, nav input{
   }
 }
 /*fin responsive laptop*/
-@media screen and (min-width: 426px) and (max-width: 767px) {
-  h3{
+-  h3{
     font-size: 5vw;
   }
   .clipped{
