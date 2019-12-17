@@ -106,10 +106,10 @@ header{
   position: relative;
 }
 .text{
-  font-size: 25px;
+  font-size: 2.5vw;
   float: left;
   width: 50%;
-  padding: 120px;
+  padding: 62px;
   box-sizing: border-box;
 
 }
@@ -162,8 +162,9 @@ img{
   transform: translate(-100px,400%) rotate(45deg);
   transition:transform 0.5s;
 }
-.clipped {
-  margin: 61px 61px;
+.clipped{
+  margin: 62px;
+  font-size: 2vw;
 }
 .polygon:hover{
   transform:scale(1.2);
@@ -358,6 +359,7 @@ nav label, nav input{
     padding-bottom: 0;
     top: 35px;
   }
+
   /*h1{
     text-align: center;
     font-size: 40px;
@@ -390,7 +392,7 @@ nav label, nav input{
     width: 100px;
   }
   .clipped{
-    margin: 0;
+    margin: 25px;
   }
   .profil{
     width: 100%;
@@ -461,14 +463,7 @@ nav label, nav input{
 -  h3{
     font-size: 5vw;
   }
-  .clipped{
-    margin: 25px;
-    font-size: 2vw;
-  }
-  .text{
-    padding: 20px;
-    font-size: 2.5vw;
-  }
+
   .polygon:before{
     width: 44vw;
   }
