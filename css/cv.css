@@ -53,7 +53,7 @@ a:hover{
 }
 /* fin navigation*/
 /* début page d'accueil*/
-.presta{
+.home{
   max-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,12 +64,12 @@ a:hover{
   position: absolute;
   width: 100%
 }
-#para{
+#title-name{
   font-family: 'Lato', sans-serif;
   font-size: 60px;
   padding: 55px 80px;
   top: 20px;
-  color: #152A2E;
+  color: #F9635E;
   position: absolute;
 }
 span{
@@ -84,14 +84,14 @@ section{
   background-color: #F0F3F4;
   width: 100%;
 }
-.apropos{
+.about{
   background-image: url("../img/fond4.gif");
   text-align: center;
   color: white;
   padding: 80px 15px;
   font-size: 30px;
 }
-#apropos > .text > a{
+#about > .text > a{
   display: block;
   text-align: center;
   padding: 20px;
@@ -119,63 +119,11 @@ header{
   text-align: center;
 }
 /* fin de a propos de*/
-/*début compétences*/
-.competences{
-  background-image: url("../img/fond4.gif");
-  text-align: center;
-  color: white;
-  padding: 80px 15px;
-  font-size: 30px;
-}
-img{
-  width: 50%;
-}
 
-.gallery {
-  width: 50%;
-  margin: auto;
-  padding: 50px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-.polygon {
-  -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-  background: linear-gradient(grey,lightgrey);
-  height: 250px;
-  width: 250px;
-  transition: transform 0.2s;
-}
-.polygon:before{
-  content: '';
-  position: absolute;
-  opacity: 0.5;
-  width: 28vw;
-  height: 70px;
-  background: white;
-  z-index:1;
-  transform:rotate(45deg);
-  transition:transform 0.5s;
-}
-.polygon:hover:before{
-  transform: translate(-100px,400%) rotate(45deg);
-  transition:transform 0.5s;
-}
-.clipped{
-  margin: 62px;
-  font-size: 2vw;
-}
-.polygon:hover{
-  transform:scale(1.2);
-  transition:transform 0.2s;
-  z-index:10;
-}
-/* fin compétences*/
 /* début mon parcours*/
 .timeline{
   position: relative;
-  margin: 50px auto;
+  margin: 20px auto;
   padding: 40px 0;
   width: 1000px;
   box-sizing: border-box;
@@ -185,7 +133,7 @@ img{
   position: absolute;
   left: 50%;
   width: 2px;
-  height: 100%;
+  height: 95%;
   background: black;
 }
 .timeline ul{
@@ -281,7 +229,7 @@ p{
   border-radius: 18px;
   box-shadow: 0 0 0 3px #FC7874;
 }
-.parcours{
+.course{
   background-image: url("../img/fond4.gif");
   text-align: center;
   color: white;
@@ -289,6 +237,59 @@ p{
   font-size: 30px;
 }
 /*fin mon parcours*/
+/*début compétences*/
+.skills{
+  background-image: url("../img/fond4.gif");
+  text-align: center;
+  color: white;
+  padding: 80px 15px;
+  font-size: 30px;
+}
+img{
+  width: 50%;
+}
+
+.gallery {
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.polygon {
+  -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  background: linear-gradient(grey,lightgrey);
+  height: 250px;
+  width: 250px;
+  transition: transform 0.2s;
+}
+.polygon:before{
+  content: '';
+  position: absolute;
+  opacity: 0.5;
+  width: 28vw;
+  height: 70px;
+  background: white;
+  z-index:1;
+  transform:rotate(45deg);
+  transition:transform 0.5s;
+}
+.polygon:hover:before{
+  transform: translate(-100px,400%) rotate(45deg);
+  transition:transform 0.5s;
+}
+.clipped{
+  margin: 62px;
+  font-size: 2vw;
+}
+.polygon:hover{
+  transform:scale(1.2);
+  transition:transform 0.2s;
+  z-index:10;
+}
+/* fin compétences*/
 nav label, nav input{
   display: none;
 }
@@ -300,7 +301,7 @@ nav label, nav input{
   padding: 80px 15px;
   font-size: 30px;
 }
-.projet{
+.project{
   width: 30%;
   margin: 15px 60px 0;
 }
@@ -350,7 +351,7 @@ nav label, nav input{
   p, h2{
     font-size: 3vw;
   }
-  #para{
+  #title-name{
     font-size: 10vw;
     color: #A7A9AA;
   }
